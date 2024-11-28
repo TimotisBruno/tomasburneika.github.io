@@ -11,3 +11,46 @@ aside {
     margin-left: 2%;
     margin-top: 20px;
 }
+
+.heading {
+    /* font-weight: lighter; */
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0 5px;
+}
+
+.heading::first-letter {
+    color: #db6e6e;
+}
+
+article {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: white);
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+article>img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100px;
+}
+
+article>span {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: black;
+
+}
